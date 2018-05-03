@@ -1,0 +1,32 @@
+//轮播样式
+.index-slide{
+    .carousel-indicators{bottom: 0;}
+    .carousel-indicators li{width: 12px;height: 12px;background: #999;border: 0;vertical-align: middle;
+        &.active{background: #fff;border: 0;}
+    }
+}
+// index-01
+.index-01{
+    background: url(../images/index-01-bg.png) no-repeat center top;padding: 64px 0;
+    @media (max-width: 768px) {padding: 32px 0;}
+    .title{
+        padding-bottom: 17px;border-bottom: 1px solid #00c678;margin-bottom: 20px;
+        .txt_lef{font-size: 24px;color: #00b37f;
+            span{font-size: 14px;}
+        }
+        .txt_right{font-size: 14px;color: #999;margin-top: 10px;
+            a{color: inherit;}
+        }
+    }
+    .new_item{border-bottom: 1px solid #f2f2f2;padding-bottom: 26px;
+        .tim{color: #00b37f;}
+        .tit{font-size: 24px;color: #333;margin-bottom: 24px;}
+        .cont{line-height: 24px;color: #666;}
+        .btn_more{color: #00b37f;}
+        &+.new_item{margin-top: 26px;}
+    }
+    .news_img{text-align: center;
+        img{width: 100%;}
+        .col-xs-6{padding: 0;}
+    }
+}

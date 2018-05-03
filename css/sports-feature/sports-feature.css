@@ -1,0 +1,40 @@
+.banner_sports_feature { text-align: center; position: relative; }
+.banner_sports_feature img { width: 100%; }
+.banner_sports_feature > .container { position: absolute; left: 0; right: 0; bottom: 0; }
+.banner_sports_feature > .container .tag { width: 138px; height: 90px; display: block; background: #00bd7b; border-radius: 10px; font-size: 18px; font-weight: bold; color: #fff; padding-top: 27px; position: absolute; top: -45px; }
+@media (max-width: 768px) { .banner_sports_feature > .container .tag { left: 50%; width: 69px; height: 45px; top: -22px; font-size: 12px; padding-top: 10px; margin-left: -38px; } }
+.banner_sports_feature > .container .tag:after { content: ''; width: 28px; height: 3px; background: #fff; position: absolute; top: 62px; left: 50%; margin-left: -14px; }
+@media (max-width: 768px) { .banner_sports_feature > .container .tag:after { width: 14px; height: 2px; margin-left: -7px; top: 33px; } }
+
+.block-item > .container { overflow: hidden; }
+.block-item.sports-feature-01 { background: #f2f2f2; padding-top: 86px; }
+@media (max-width: 768px) { .block-item.sports-feature-01 { padding-top: 43px; } }
+.block-item.sports-feature-02 { padding: 100px 0 94px; }
+@media (max-width: 768px) { .block-item.sports-feature-02 { padding: 50px 0 47px; } }
+.block-item .tit { font-size: 24px; font-weight: bold; color: #333; text-align: center; position: relative; padding-bottom: 38px; margin-bottom: 48px; }
+.block-item .tit:after { content: ''; width: 32px; height: 3px; background: #13cf8a; position: absolute; bottom: 0; left: 50%; margin-left: -16px; }
+@media (max-width: 768px) { .block-item .tit { padding-bottom: 19px; margin-bottom: 24px; } }
+.block-item .feature_list { padding: 0 72px; text-align: center; }
+@media (max-width: 768px) { .block-item .feature_list { padding: 0; } }
+.block-item .feature_list .col-sm-3 { padding: 0 50px; }
+@media (max-width: 768px) { .block-item .feature_list .col-sm-3 { padding: 0 15px; }
+  .block-item .feature_list > .row > [class^="col-sm"] + div:before { content: none !important; } }
+@media (max-width: 767px) { .block-item .feature_list .col-sm-20percent { float: none; width: 100%; padding: 0 15px; } }
+@media (min-width: 768px) { .block-item .feature_list .col-sm-20percent { width: 20%; float: left; padding: 0 30px; } }
+.block-item .feature_list .icon-feature { display: block; width: 80px; height: 60px; margin: 0 auto; background-image: url(../images/icon-feature-icon.png); background-repeat: no-repeat; background-position-x: 0; }
+.block-item .feature_list .icon-feature.icon-ball { background-position-y: 0; }
+.block-item .feature_list .icon-feature.icon-bet { background-position-y: -60px; }
+.block-item .feature_list .icon-feature.icon-bet2 { background-position-y: -120px; }
+.block-item .feature_list .icon-feature.icon-point { background-position-y: -180px; }
+.block-item .feature_list .icon-feature.icon-thumb { background-position-y: -240px; }
+.block-item .feature_list .icon-feature.icon-competition { background-position-y: -300px; }
+.block-item .feature_list .icon-feature.icon-quata { background-position-y: -360px; }
+.block-item .feature_list .icon-feature.icon-control { background-position-y: -420px; }
+.block-item .feature_list .icon-feature.icon-betPush { background-position-y: -480px; }
+.block-item .feature_list .txt1 { font-size: 18px; font-weight: bold; color: #333; margin-bottom: 10px; }
+.block-item .feature_list .txt2 { line-height: 23px; color: #666; }
+.block-item .feature_list > .row > [class^="col-sm"] { position: relative; }
+.block-item .feature_list > .row > [class^="col-sm"] + div:before { content: ''; position: absolute; background: url(../images/feature-item-sep-bg.png); width: 2px; height: 85px; left: 0; top: 50%; margin-top: -42px; }
+.block-item .feature_img img { width: 100%; max-width: 100%; }
+
+/*# sourceMappingURL=sports-feature.css.map */

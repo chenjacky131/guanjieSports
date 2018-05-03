@@ -1,0 +1,64 @@
+.banner_sports_project { text-align: center; position: relative; }
+.banner_sports_project img { width: 100%; }
+.banner_sports_project > .container { position: absolute; left: 0; right: 0; top: 0; }
+.banner_sports_project > .container .tag { height: 90px; display: block; color: #00bd7b; font-size: 18px; font-weight: bold; position: absolute; top: 54px; left: 0; right: 0; }
+@media (max-width: 768px) { .banner_sports_project > .container .tag { left: 50%; width: 69px; height: 45px; top: 0; font-size: 12px; padding-top: 10px; margin-left: -38px; } }
+.banner_sports_project > .container .tag:after { content: ''; width: 28px; height: 3px; background: #00bd7b; position: absolute; top: 37px; left: 50%; margin-left: -14px; }
+@media (max-width: 768px) { .banner_sports_project > .container .tag:after { width: 14px; height: 2px; margin-left: -7px; top: 33px; } }
+
+.sports_project_item > .container { position: relative; }
+.sports_project_item .tit { font-size: 24px; color: #00bd7b; font-weight: bold; text-align: center; position: relative; margin-bottom: 4.83%; }
+@media (max-width: 768px) { .sports_project_item .tit { margin-top: 40px; padding-bottom: 18px; } }
+@media (min-width: 769px) { .sports_project_item .tit { margin-top: 80px; padding-bottom: 35px; } }
+.sports_project_item .tit:after { content: ''; width: 32px; height: 3px; background: #00bd7b; position: absolute; bottom: 0; left: 50%; margin-left: -16px; }
+@media (max-width: 767px) { .sports_project_item .tit { font-size: 18px; margin-top: 30px; padding-bottom: 17px; } }
+.sports_project_item.sports_project_01 .img_wrap img { width: 100%; max-width: 100%; }
+.sports_project_item.sports_project_01 .terminal_list { padding: 0 19.2%; margin-bottom: 6.67%; }
+.sports_project_item.sports_project_01 .terminal_list .txt { text-align: center; color: #333; }
+.sports_project_item.sports_project_01 .terminal_list .icon-project { background-image: url(../images/icon-project-icon.png); background-repeat: no-repeat; background-position-x: 0; width: 80px; height: 80px; display: block; margin: 0 auto; }
+.sports_project_item.sports_project_01 .terminal_list .icon-project.icon-mac { background-position-y: 0; }
+.sports_project_item.sports_project_01 .terminal_list .icon-project.icon-windows { background-position-y: -80px; }
+.sports_project_item.sports_project_01 .terminal_list .icon-project.icon-ios { background-position-y: -160px; }
+.sports_project_item.sports_project_01 .terminal_list .icon-project.icon-android { background-position-y: -240px; }
+.sports_project_item.sports_project_01 .terminal_list .row > div { position: relative; }
+.sports_project_item.sports_project_01 .terminal_list .row > div + div:before { content: ''; width: 1px; height: 54px; background: #ddd; position: absolute; top: 50%; margin-top: -27px; left: 0; }
+@media (max-width: 767px) { .sports_project_item.sports_project_01 .terminal_list .row > div + div:before { content: none; } }
+.sports_project_item.sports_project_02 { background: #f2f2f2; }
+@media (max-width: 768px) { .sports_project_item.sports_project_02 > .container { padding-bottom: 58px; } }
+@media (min-width: 769px) { .sports_project_item.sports_project_02 > .container { padding-bottom: 116px; } }
+.sports_project_item.sports_project_02 .col-sm-width20 { text-align: center; margin-bottom: 20px; }
+.sports_project_item.sports_project_02 .col-sm-width20 img { width: 100%; max-width: 100%; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf { position: absolute; width: 80px; height: 120px; top: 0; left: 0; bottom: 0; right: 0; margin: auto; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project { background-image: url(../images/icon-project-icon.png); width: 80px; height: 80px; display: block; background-repeat: no-repeat; background-position-x: 0; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball01 { background-position-y: -320px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball02 { background-position-y: -400px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball03 { background-position-y: -480px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball04 { background-position-y: -560px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball05 { background-position-y: -640px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball06 { background-position-y: -720px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball07 { background-position-y: -800px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball08 { background-position-y: -880px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball09 { background-position-y: -960px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .icon-project.icon-ball10 { background-position-y: -1040px; }
+.sports_project_item.sports_project_02 .col-sm-width20 .item-inf .txt { margin-top: 12px; }
+@media (min-width: 768px) { .sports_project_item.sports_project_02 .col-sm-width20 { width: 20%; float: left; } }
+.sports_project_item.sports_project_03 { background: #fff url(../images/sports-project03-bg.png) no-repeat center bottom/100%; }
+.sports_project_item.sports_project_03 .txt { width: 66.7%; margin: 0 auto 57px; text-align: center; color: #333; line-height: 31px; }
+@media (max-width: 375px) { .sports_project_item.sports_project_03 .txt { margin: 0 auto 20px; } }
+@media (max-width: 768px) { .sports_project_item.sports_project_03 .team-list { padding: 0 10px 40px; } }
+@media (min-width: 769px) { .sports_project_item.sports_project_03 .team-list { padding: 0 28.333% 180px; } }
+.sports_project_item.sports_project_03 .team-list .icon-team { display: block; width: 110px; height: 110px; background-image: url(../images/icon-ball-team.png); background-repeat: no-repeat; margin: 0 auto; background-position-x: 0; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team1 { background-position-y: 0; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team2 { background-position-y: -110px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team3 { background-position-y: -220px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team4 { background-position-y: -330px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team5 { background-position-y: -440px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team6 { background-position-y: -550px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team7 { background-position-y: -660px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team8 { background-position-y: -770px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team9 { background-position-y: -880px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team10 { background-position-y: -990px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team11 { background-position-y: -1100px; }
+.sports_project_item.sports_project_03 .team-list .icon-team.icon-team12 { background-position-y: -1210px; }
+
+/*# sourceMappingURL=sports-project.css.map */

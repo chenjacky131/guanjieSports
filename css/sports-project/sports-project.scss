@@ -1,0 +1,134 @@
+.banner_sports_project{
+    text-align: center;position: relative;
+    img{width: 100%;}
+    &>.container{position: absolute;left: 0;right: 0;top: 0;
+        .tag{height: 90px;display: block;color: #00bd7b;font-size: 18px;font-weight: bold;position: absolute;top: 54px;left: 0;right: 0;
+             @media (max-width: 768px) {
+                left: 50%;
+                width: 69px;
+                height: 45px;
+                top: 0;
+                font-size: 12px;
+                padding-top: 10px;
+                margin-left: -38px;
+            }
+            &:after{content: '';width: 28px;height: 3px;background: #00bd7b;position: absolute;top:37px;left: 50%;margin-left: -14px;
+                @media (max-width:768px) {
+                    width: 14px;
+                    height: 2px;
+                    margin-left: -7px;
+                    top: 33px;
+                }
+            }
+        }
+    }
+}
+
+.sports_project_item{
+    &>.container{position: relative;}
+    .tit{
+        font-size: 24px;color: #00bd7b;font-weight: bold;
+        text-align: center;position:relative;
+        
+        margin-bottom: 4.83%;
+        @media (max-width:768px){
+             margin-top: 40px;  padding-bottom:18px;
+        }
+        @media (min-width:769px){
+          margin-top: 80px;  padding-bottom:35px;
+        }
+        &:after{content: '';width: 32px;height: 3px;background: #00bd7b;position: absolute;bottom: 0;left: 50%;margin-left: -16px;}
+    }
+    @media (max-width:767px){
+        .tit{    font-size: 18px;margin-top: 30px;padding-bottom: 17px;}
+    }
+    &.sports_project_01{
+        .img_wrap{
+            img{width: 100%;max-width: 100%;}
+        }
+        .terminal_list{
+            padding: 0 19.2%;
+            margin-bottom:6.67%;
+            .txt{text-align: center;color: #333;}
+            .icon-project{background-image: url(../images/icon-project-icon.png);background-repeat: no-repeat;background-position-x: 0;width: 80px;height: 80px;display:block;margin: 0 auto;
+                &.icon-mac{background-position-y: 0;}
+                &.icon-windows{background-position-y: -80px;}
+                &.icon-ios{background-position-y: -160px;}
+                &.icon-android{background-position-y: -240px;}
+            }
+            .row>div{position: relative;
+                &+div{
+                    &:before{content: '';width: 1px;height: 54px;background: #ddd;position: absolute;top: 50%;margin-top: -27px;left: 0;}
+                }
+            }
+            @media (max-width:767px){
+                .row>div{
+                    &+div{
+                        &:before{content: none;}
+                    }
+                }   
+            }
+        }
+    }
+    &.sports_project_02{background: #f2f2f2;
+        @media (max-width:768px){
+             &>.container{padding-bottom:58px;}
+        }
+        @media (min-width:769px){
+          &>.container{padding-bottom:116px;}
+        }
+        .col-sm-width20{text-align: center;margin-bottom: 20px;
+            img{width: 100%;max-width: 100%;}
+            .item-inf{position: absolute;width: 80px;height: 120px;top: 0;left: 0;bottom: 0;right: 0;margin: auto;
+                .icon-project{background-image: url(../images/icon-project-icon.png);width: 80px;height: 80px;display: block;background-repeat: no-repeat;background-position-x: 0;
+                    &.icon-ball01{background-position-y: -320px;}
+                    &.icon-ball02{background-position-y: -400px;}
+                    &.icon-ball03{background-position-y: -480px;}
+                    &.icon-ball04{background-position-y: -560px;}
+                    &.icon-ball05{background-position-y: -640px;}
+                    &.icon-ball06{background-position-y: -720px;}
+                    &.icon-ball07{background-position-y: -800px;}
+                    &.icon-ball08{background-position-y: -880px;}
+                    &.icon-ball09{background-position-y: -960px;}
+                    &.icon-ball10{background-position-y: -1040px;}
+                }
+                .txt{    margin-top: 12px;}
+            }
+        }
+        @media (min-width:768px){
+            .col-sm-width20{
+                width: 20%;float: left;
+            }
+        }
+    }
+    &.sports_project_03{
+        background: #fff url(../images/sports-project03-bg.png) no-repeat center bottom /100%;
+        .txt{width: 66.7%;margin: 0 auto 57px;text-align: center;color: #333;line-height: 31px;
+            @media (max-width:375px){
+                    margin: 0 auto 20px;
+            }
+        }
+        .team-list{
+            @media (max-width:768px){
+                padding: 0 10px 40px;
+            }
+            @media (min-width:769px){
+              padding: 0 28.333% 180px;
+            }
+            .icon-team{display: block;width: 110px;height: 110px;background-image: url(../images/icon-ball-team.png);background-repeat: no-repeat;margin: 0 auto;background-position-x: 0;
+                &.icon-team1{background-position-y: 0;}
+                &.icon-team2{background-position-y: -110px;}
+                &.icon-team3{background-position-y: -220px;}
+                &.icon-team4{background-position-y: -330px;}
+                &.icon-team5{background-position-y: -440px;}
+                &.icon-team6{background-position-y: -550px;}
+                &.icon-team7{background-position-y: -660px;}
+                &.icon-team8{background-position-y: -770px;}
+                &.icon-team9{background-position-y: -880px;}
+                &.icon-team10{background-position-y: -990px;}
+                &.icon-team11{background-position-y: -1100px;}
+                &.icon-team12{background-position-y: -1210px;}
+            }
+        }
+    }
+}
